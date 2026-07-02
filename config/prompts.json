@@ -1,0 +1,96 @@
+{
+  "tiktok": {
+    "template": "Crée un post TikTok viral sur le thème '{theme}'. Le post doit:\n1. Commencer par un hook accrocheur (question, chiffre choc, ou affirmation provocante)\n2. Avoir une tonalité décontractée et conversationnelle (tu/toi)\n3. Inclure un CTA clair vers {cta_link}\n4. Être entre 100 et 150 caractères\n5. Utiliser des hashtags pertinents (max 5)\n\nCréateurs/audiences cibles: {target_audience}\n\nRéponds UNIQUEMENT le contenu du post, sans explications.",
+    "hooks": [
+      "Si tu fais [problème], tu rates ça...",
+      "3 choses que tu ne savais pas sur [sujet]",
+      "Les gars qui gagnent vraiment de l'argent font ça tous les jours",
+      "Je t'ai caché ça pendant trop longtemps...",
+      "Comment {influencer} gagne {amount}€ en {timeframe}"
+    ]
+  },
+  "instagram_reels": {
+    "template": "Crée un script de Reel Instagram viral sur le thème '{theme}'. Le script doit:\n1. Durer 15-30 secondes (environ 45-90 mots)\n2. Commencer par un hook visuel intéressant (ex: une transformation, une révélation)\n3. Avoir un rythme rapide (phrases courtes, dynamiques)\n4. Inclure un CTA vers {cta_link} dans le texte ou en appel à l'action final\n5. Être facilement filmable par quelqu'un seul avec un téléphone\n\nAudiences cibles: {target_audience}\n\nRéponds au format:\n[HOOK 0-3s]: ...\n[DÉVELOPPEMENT 3-15s]: ...\n[CTA 15-30s]: ...",
+    "hooks": [
+      "Transformation rapide avant/après",
+      "Révélation d'un secret",
+      "Démonstration impressionnante",
+      "Témoignage authentique",
+      "Challenge ou défi"
+    ]
+  },
+  "instagram_feed": {
+    "template": "Crée un post Instagram (feed) sur le thème '{theme}'. Le post doit:\n1. Avoir un titre accrocheur (1-2 lignes)\n2. Un corps de texte engageant (3-5 paragraphes, max 2000 caractères)\n3. Inclure un CTA clair vers {cta_link}\n4. Utiliser des emojis de façon stratégique (pas abuseif)\n5. Terminer par un appel à commenter/partager\n6. Hashtags pertinents (10-15)\n\nTone: {tone}\nAudiences: {target_audience}\n\nRéponds au format:\n[TITRE]: ...\n[CORPS]: ...\n[CTA]: ...\n[HASHTAGS]: ...",
+    "hooks": [
+      "À savoir absolument si tu veux...",
+      "On m'a demandé comment...",
+      "Je crois qu'on te cache ça",
+      "Ça change tout pour...",
+      "Voici comment les meilleurs..."
+    ]
+  },
+  "pinterest": {
+    "template": "Crée une description Pinterest pour une épingle sur le thème '{theme}'. La description doit:\n1. Être optimisée pour le SEO Pinterest (mots-clés pertinents en tête)\n2. Commencer par une promesse claire (ex: \"Découvre comment...\")\n3. Inclure le lien {cta_link}\n4. Être entre 150 et 300 caractères\n5. Utiliser un langage d'action (\"clique\", \"découvre\", \"apprends\")\n\nMots-clés principaux: {keywords}\nAudiences: {target_audience}\n\nRéponds UNIQUEMENT la description, prête à copier-coller.",
+    "hooks": [
+      "Découvre comment [résultat] en [timeframe]",
+      "[Nombre] secrets pour [bénéfice]",
+      "[Titre] que tu ne connais pas",
+      "Pourquoi tout le monde parle de [sujet]",
+      "[Chiffre] façons de [objectif]"
+    ]
+  },
+  "linkedin": {
+    "template": "Crée un post LinkedIn professionnel sur le thème '{theme}'. Le post doit:\n1. Commencer par une observation ou question pertinente\n2. Partager un insight ou une leçon apprise\n3. Être entre 300 et 1000 caractères\n4. Inclure un CTA (lien ou appel à l'engagement)\n5. Utiliser un ton professionnel mais authentique\n\nThème professionnel: {professional_theme}\nAudiences: {target_audience}\n\nRéponds UNIQUEMENT le contenu du post.",
+    "hooks": [
+      "Ce que j'ai appris en [contexte]...",
+      "La plupart des gens se trompent sur [sujet]",
+      "Si tu cherches à [objectif], voici comment...",
+      "Après [nombre] ans dans [domaine], j'ai réalisé...",
+      "Les [groupe] qui réussissent font ça différemment"
+    ]
+  },
+  "themes": [
+    {
+      "name": "Affiliation 101",
+      "description": "Explique les bases du marketing d'affiliation, comment ça marche, les avantages",
+      "keywords": ["affiliation", "gagner de l'argent", "marketing", "passive income"],
+      "cta": "Deviens affilié Trendib gratuit",
+      "target_audiences": ["entrepreneurs", "side hustlers", "étudiants"]
+    },
+    {
+      "name": "Success Stories",
+      "description": "Partage des témoignages d'affiliés qui gagnent de l'argent réel",
+      "keywords": ["témoignage", "gains réels", "proof of income", "success"],
+      "cta": "Rejoins nos meilleurs affiliés",
+      "target_audiences": ["entrepreneurs ambitieux", "parents en reconversion"]
+    },
+    {
+      "name": "Palier 1 Focus",
+      "description": "Met en avant l'ebook 'Palier 1: 100 réponses pour enfants curieux'",
+      "keywords": ["parentalité", "enfants", "éducation", "développement personnel"],
+      "cta": "Découvre l'ebook gratuit",
+      "target_audiences": ["parents", "éducateurs"]
+    },
+    {
+      "name": "Palier 3 Focus",
+      "description": "Promeut le thriller 'Palier 3: Les dernières heures avant la tempête'",
+      "keywords": ["thriller", "suspense", "lecture", "fiction"],
+      "cta": "Lis le premier chapitre gratuitement",
+      "target_audiences": ["lecteurs", "amateurs de thriller"]
+    },
+    {
+      "name": "Earning Potential",
+      "description": "Expose les gains potentiels et la mécanique de rémunération",
+      "keywords": ["gagne de l'argent", "commission", "résumé passif", "bonus"],
+      "cta": "Calcule tes gains potentiels",
+      "target_audiences": ["freelancers", "influenceurs micro"]
+    },
+    {
+      "name": "Referral Mechanic",
+      "description": "Explique le bonus de parrainage (3 amis parrainés = 2 ventes offertes)",
+      "keywords": ["parrainage", "bonus", "réseau", "croissance"],
+      "cta": "Partage ta version gratuite",
+      "target_audiences": ["networkers", "community builders"]
+    }
+  ]
+}
